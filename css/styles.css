@@ -4,6 +4,7 @@
   background-color: #fff;
 }
 /* SITE NAVBAR STYLES */
+
 .sitenav-list {
   list-style: none;
 }
@@ -25,6 +26,8 @@
   color: #fff;
   text-decoration: none;
 }
+
+/* HERO STYLES */
 
 .hero {
   background-color: #252420;
@@ -58,6 +61,8 @@
   background-color: #ff7500;
 }
 
+/* FEATURE STYLES */
+
 .features-heading {
   width: 440px;
   font-size: 72px;
@@ -86,6 +91,8 @@
   line-height: 1.5;
   letter-spacing: 0.5px;
 }
+
+/* PROMO STYLES */
 
 .promo {
   color: #fff;
@@ -116,6 +123,7 @@
   height: 440px;
   object-fit: cover;
 }
+/* FOOTER STYLES */
 
 .site-footer {
   background-color: #f8f8f8;
