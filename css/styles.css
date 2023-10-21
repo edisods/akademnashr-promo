@@ -14,6 +14,18 @@ body {
   background-color: #fff;
 }
 
+.logo-link {
+  transition: opacity 0.4s ease;
+}
+
+.logo-link:hover {
+  opacity: 0.8;
+}
+
+.logo-link:active {
+  opacity: 0.5;
+}
+
 .site-header-actions {
   display: flex;
   align-items: center;
@@ -33,7 +45,18 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #000;
+  transition: color 0.4s ease,
+    opacity 0.4s ease;
 }
+
+.site-nav-link:hover {
+  color: #ff7500;
+}
+
+.site-nav-link:active {
+  opacity: 0.6;
+}
+
 /* MENU LINK STYLES */
 .main-link {
   font-style: 13px;
@@ -41,6 +64,15 @@ body {
   background-color: #ff7500;
   color: #fff;
   text-decoration: none;
+  transition: opacity 0.4s ease;
+}
+
+.main-link:hover {
+  opacity: 0.8;
+}
+
+.main-link:active {
+  opacity: 0.6;
 }
 
 /* HERO STYLES */
@@ -174,4 +206,25 @@ body {
 
 .footer-socials {
   display: flex;
+  align-items: center;
+}
+
+.footer-socials a {
+  color: #242520;
+}
+
+.footer-socials a:hover {
+  color: #ff7500;
+}
+
+.footer-socials a:active {
+  opacity: 0.6;
+}
+
+.site-footer-link-list a:hover {
+  color: #ff7500;
+}
+
+.site-footer-link-list a:focus {
+  opacity: 0.6;
 }
