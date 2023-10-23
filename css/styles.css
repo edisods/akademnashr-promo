@@ -5,6 +5,11 @@ body {
   font-family: 'Roboto', 'Arial', sans-serif;
 }
 
+*:focus {
+  border-style: 2px dotted #ff7500;
+  outline-offset: 3px;
+}
+
 
 /* HEADER STYLES */
 .site-header {
@@ -225,6 +230,6 @@ body {
   color: #ff7500;
 }
 
-.site-footer-link-list a:focus {
+.site-footer-link-list a:active {
   opacity: 0.6;
 }
