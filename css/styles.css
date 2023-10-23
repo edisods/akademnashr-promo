@@ -6,7 +6,7 @@ body {
 }
 
 *:focus {
-  border-style: 2px dotted #ff7500;
+  outline: 2px dotted #ff7500;
   outline-offset: 3px;
 }
 
