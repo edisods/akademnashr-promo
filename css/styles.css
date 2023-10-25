@@ -14,6 +14,9 @@ body {
 /* HEADER STYLES */
 .site-header {
   display: flex;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-top: 5px solid #ff7500;
   align-items: center;
   justify-content: space-between;
   background-color: #fff;
@@ -40,6 +43,7 @@ body {
 .sitenav-list {
   list-style: none;
   display: flex;
+  padding: none;
 }
 
 .site-nav-link {
@@ -64,7 +68,11 @@ body {
 
 /* MENU LINK STYLES */
 .main-link {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 4px;
   font-style: 13px;
+  font-weight: bold;
   line-height: 15px;
   background-color: #ff7500;
   color: #fff;
@@ -83,6 +91,8 @@ body {
 /* HERO STYLES */
 
 .hero {
+  padding-top: 80px;
+  padding-bottom: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -97,6 +107,7 @@ body {
 .hero-image {
   width: 510px;
   height: 510px;
+  border-radius: 8px;
 }
 
 .hero-heading {
@@ -109,9 +120,14 @@ body {
   height: 3px;
   width: 80px;
   background-color: #ff7500;
+  border: 0;
 }
 
 /* FEATURE STYLES */
+.features {
+  padding-top: 210px;
+  padding-bottom: 210px;
+}
 
 .features-heading {
   width: 440px;
@@ -129,9 +145,14 @@ body {
   display: flex;
   list-style: none;
   justify-content: space-between ;
+  padding: 0;
 }
 
 .feature-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
   width: 100px;
   height: 100px;
   background-color:  rgba(255, 117, 0, 0.20);;
@@ -146,6 +167,7 @@ body {
 /* PROMO STYLES */
 
 .promo {
+  border-radius: 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -169,6 +191,7 @@ body {
 }
 
 .promo-image {
+  border-radius: 12px;
   width: 440px;
   height: 440px;
   object-fit: cover;
@@ -176,15 +199,19 @@ body {
 /* FOOTER STYLES */
 
 .site-footer {
+  padding-top: 56px;
+  padding-bottom: 56px;
   background-color: #f8f8f8;
 }
 
 .site-footer ul {
+  padding: 0;
   list-style: none;
 }
 
 .site-footer-divider {
   height: 2px;
+  border: 0;
   background-color: rgba(37, 36, 32, 0.50);
 }
 
@@ -210,6 +237,7 @@ body {
 }
 
 .footer-socials {
+  padding: 0;
   display: flex;
   align-items: center;
 }
